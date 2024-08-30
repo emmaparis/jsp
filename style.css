@@ -80,6 +80,10 @@ nav img{
     background: #f44336;
     transition: 1s;
 }
+nav .fa{
+    display: none;
+}
+
 @media (max-width:700px){
     .text-box h1{
         font-size: 20px;
@@ -102,6 +106,16 @@ nav img{
     nav ul li{
         display: block;
         margin: 50px 0;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
     }
 }
 
